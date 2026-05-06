@@ -182,4 +182,4 @@ Each exercise will follow this format:
 
 Built and maintained by Marcelo Perlingeiro as a hands-on cybersecurity learning environment.
 
-- LinkedIn: [linkedin.com/in/marceloperlingeiro](https://linkedin.com/in/marceloperlingeiro)
+- LinkedIn: [linkedin.com/in/marceloperlingeiro](https://linkedin.com/in/mperlingeiro)

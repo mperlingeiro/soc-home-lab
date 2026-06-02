@@ -1,0 +1,15 @@
+<group name="local,recon,">
+
+  <!-- Rule 100002: Port scan detection based on repeated web 400 errors from same IP -->
+  <!-- Parent rule: 31101 (Web server 400 error code) -->
+  <!-- Triggers: 8 or more 400 errors from the same source IP within 60 seconds -->
+  <!-- Level 12 = high severity | Tagged: recon, port_scan, PCI DSS 11.4 -->
+
+  <rule id="100002" level="12" frequency="8" timeframe="60">
+    <if_matched_sid>31101</if_matched_sid>
+    <same_source_ip />
+    <description>Port scan detected - multiple web probes from same IP</description>
+    <group>recon,port_scan,pci_dss_11.4,</group>
+  </rule>
+
+</group>
